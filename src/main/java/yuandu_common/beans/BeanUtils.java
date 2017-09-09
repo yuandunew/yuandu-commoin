@@ -1,7 +1,7 @@
-package utils.beans;
+package yuandu_common.beans;
 
-import com.yuandu.utils.date.DateUtils;
 import org.apache.commons.lang3.StringUtils;
+import yuandu_common.date.DateUtils;
 
 import java.beans.BeanInfo;
 import java.beans.IntrospectionException;
@@ -17,14 +17,14 @@ import java.util.concurrent.ConcurrentHashMap;
 /**
  * Bean复制<br>
  */
-public class BeanExtUtils {
+public class BeanUtils {
 
     private static Map<String, Map<String, PropertyDescriptor>> propertyDescriptorCache = new ConcurrentHashMap<>();
 
     private static Map<String, List<String>> fieldCache = new HashMap<>();
 
 
-    private BeanExtUtils() {
+    private BeanUtils() {
     }
 
     /**

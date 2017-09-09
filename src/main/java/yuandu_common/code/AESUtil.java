@@ -1,8 +1,8 @@
-package utils.code;
+package yuandu_common.code;
 
-import com.yuandu.utils.file.ConstantData;
 import org.apache.commons.io.FileUtils;
 import org.apache.xmlbeans.impl.util.Base64;
+import yuandu_common.file.ConstantData;
 
 import javax.crypto.*;
 import javax.crypto.spec.SecretKeySpec;

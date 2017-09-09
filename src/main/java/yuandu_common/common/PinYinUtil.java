@@ -1,4 +1,4 @@
-package utils.common;
+package yuandu_common.common;
 
 import java.io.UnsupportedEncodingException;
 

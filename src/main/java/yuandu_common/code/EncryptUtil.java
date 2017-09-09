@@ -1,4 +1,4 @@
-package utils.code;
+package yuandu_common.code;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

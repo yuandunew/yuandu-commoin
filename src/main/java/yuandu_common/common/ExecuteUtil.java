@@ -1,4 +1,4 @@
-package utils.common;
+package yuandu_common.common;
 
 import org.apache.commons.io.IOUtils;
 import org.apache.logging.log4j.LogManager;

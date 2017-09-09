@@ -1,4 +1,4 @@
-package utils.collections;
+package yuandu_common.collections;
 
 import java.beans.BeanInfo;
 import java.beans.IntrospectionException;

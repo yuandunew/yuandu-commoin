@@ -1,4 +1,4 @@
-package utils.file;
+package yuandu_common.file;
 
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.StringUtils;
@@ -7,14 +7,14 @@ import java.io.*;
 
 /**
  * 文件处理工具类
- * 
+ *
  * @author caozj
  */
 public class FileUtils {
 
 	/**
 	 * 创建目录
-	 * 
+	 *
 	 * @param filePath
 	 *            - 源文件(可以是文件,也可以是目录)
 	 */
@@ -33,7 +33,7 @@ public class FileUtils {
 
 	/**
 	 * copy文件 1. 请确认目标文件所在目录是否存在 2. 请确认当前用户是否有写权限
-	 * 
+	 *
 	 * @param inPath
 	 *            - 源文件(绝对路径)
 	 * @param outPath
@@ -58,7 +58,7 @@ public class FileUtils {
 
 	/**
 	 * copy文件 1. 请确认目标文件所在目录是否存在 2. 请确认当前用户是否有写权限
-	 * 
+	 *
 	 * @param inFile
 	 *            - 源文件
 	 * @param outPath
@@ -83,7 +83,7 @@ public class FileUtils {
 
 	/**
 	 * copy文件 1. 请确认目标文件所在目录是否存在 2. 请确认当前用户是否有写权限
-	 * 
+	 *
 	 * @param is
 	 *            - 源文件流
 	 * @param outPath
@@ -106,7 +106,7 @@ public class FileUtils {
 
 	/**
 	 * 获取文件的扩展名
-	 * 
+	 *
 	 * @param fileName
 	 *            文件名
 	 * @return

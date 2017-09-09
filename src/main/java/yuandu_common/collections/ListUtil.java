@@ -1,4 +1,4 @@
-package utils.collections;
+package yuandu_common.collections;
 
 
 import org.apache.commons.lang3.StringUtils;

@@ -1,4 +1,4 @@
-package utils.beans;
+package yuandu_common.beans;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;

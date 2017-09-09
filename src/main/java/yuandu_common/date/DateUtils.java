@@ -1,4 +1,4 @@
-package utils.date;
+package yuandu_common.date;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.time.DateFormatUtils;

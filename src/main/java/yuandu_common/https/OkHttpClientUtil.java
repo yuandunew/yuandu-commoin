@@ -1,9 +1,9 @@
-package utils.https;
+package yuandu_common.https;
 
 import com.squareup.okhttp.*;
-import com.yuandu.utils.json.JsonUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import yuandu_common.json.JsonUtils;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
