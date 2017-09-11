@@ -1,7 +1,7 @@
 package yuandu_common.common;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * 线程工具类
@@ -11,7 +11,7 @@ import org.apache.logging.log4j.Logger;
  */
 public class ThreadUtil {
 
-	private static final Logger logger = LogManager.getLogger(ThreadUtil.class);
+	private static final Logger logger = LoggerFactory.getLogger(ThreadUtil.class);
 
 	public static void sleep(long time) {
 		try {

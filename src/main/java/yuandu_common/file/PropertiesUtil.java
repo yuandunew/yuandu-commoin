@@ -3,8 +3,8 @@ package yuandu_common.file;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.StringUtils;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.*;
 import java.util.*;
@@ -18,7 +18,7 @@ import java.util.*;
  */
 public class PropertiesUtil {
 
-	private static final Logger logger = LogManager.getLogger(PropertiesUtil.class);
+	private static final Logger logger = LoggerFactory.getLogger(PropertiesUtil.class);
 
 	/**
 	 * 按文件顺序读取properties文件内容

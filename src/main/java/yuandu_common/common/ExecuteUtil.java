@@ -1,8 +1,8 @@
 package yuandu_common.common;
 
 import org.apache.commons.io.IOUtils;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -16,7 +16,7 @@ import java.io.InputStreamReader;
  */
 public class ExecuteUtil {
 
-	private static final Logger logger = LogManager.getLogger(ExecuteUtil.class);
+	private static final Logger logger = LoggerFactory.getLogger(ExecuteUtil.class);
 
 	/**
 	 * 同步执行命令行等待返回结果
