@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/yuandu-common.iml" filepath="$PROJECT_DIR$/yuandu-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/yuandu_common.iml" filepath="$PROJECT_DIR$/yuandu_common.iml" />
     </modules>
   </component>
