@@ -1,6 +1,6 @@
 package yuandu_common.exceptions;
 
-public enum LifesenseExceptionCode {
+public enum YuanduExceptionCode {
     NULL(400,"对象为空"),
     UNKNOWN_ERROR(500,"系统繁忙，请稍后再试...."),
     PORT_IS_IN_USE(100,"当前串口已经被占用"),
@@ -19,7 +19,7 @@ public enum LifesenseExceptionCode {
     private Integer code;
     private String msg;
 
-    private LifesenseExceptionCode(Integer code, String msg) {
+    private YuanduExceptionCode(Integer code, String msg) {
         this.code = code;
         this.msg = msg;
     }
