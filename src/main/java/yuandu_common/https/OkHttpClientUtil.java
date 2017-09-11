@@ -1,8 +1,9 @@
 package yuandu_common.https;
 
 import com.squareup.okhttp.*;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import yuandu_common.exceptions.LifesenseBaseException;
 import yuandu_common.json.JsonUtils;
 
 import java.io.IOException;
@@ -13,7 +14,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class OkHttpClientUtil {
 
-    private static Logger logger = LogManager.getLogger(OkHttpClientUtil.class);
+    private static Logger logger = LoggerFactory.getLogger(LifesenseBaseException.class);
 
     public static final MediaType JSON = MediaType.parse("application/json; charset=utf-8");
     /**

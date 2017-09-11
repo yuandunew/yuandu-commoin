@@ -2,6 +2,8 @@ package yuandu_common.date;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.time.DateFormatUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.text.MessageFormat;
 import java.text.SimpleDateFormat;
@@ -18,6 +20,9 @@ import java.util.Locale;
  * Copyright (c) 2015, lifesense.com
  */
 public class DateUtils {
+
+	private Logger logger = LoggerFactory.getLogger(DateUtils.class);
+
     public static final String DATE_PATTERN = "yyyy-MM-dd";
     public static final String TIMESTAMP_PATTERN = "yyyy-MM-dd HH:mm:ss";
     public static final String TIME_PATTERN = "HH:mm";

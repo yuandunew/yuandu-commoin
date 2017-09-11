@@ -1,6 +1,8 @@
 package yuandu_common.beans;
 
 import org.apache.commons.lang3.StringUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import yuandu_common.date.DateUtils;
 
 import java.beans.BeanInfo;
@@ -18,6 +20,8 @@ import java.util.concurrent.ConcurrentHashMap;
  * Bean复制<br>
  */
 public class BeanUtils {
+
+    private Logger logger = LoggerFactory.getLogger(BeanUtils.class);
 
     private static Map<String, Map<String, PropertyDescriptor>> propertyDescriptorCache = new ConcurrentHashMap<>();
 

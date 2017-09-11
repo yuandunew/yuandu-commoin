@@ -1,7 +1,8 @@
 package yuandu_common.code;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.security.MessageDigest;
 
@@ -13,7 +14,7 @@ import java.security.MessageDigest;
  */
 public class EncryptUtil {
 
-	private static final Logger logger = LogManager.getLogger(EncryptUtil.class);
+	private static final Logger logger = LoggerFactory.getLogger(EncryptUtil.class);
 
 	/**
 	 * md5加密
